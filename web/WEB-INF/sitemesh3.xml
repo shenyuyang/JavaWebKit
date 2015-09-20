@@ -1,0 +1,7 @@
+<sitemesh>
+    <mapping path="/*" decorator="/layout.jsp"/>
+
+    <content-processor>
+        <tag-rule-bundle class="org.sitemesh.content.tagrules.html.DivExtractingTagRuleBundle" />
+    </content-processor>
+</sitemesh>
